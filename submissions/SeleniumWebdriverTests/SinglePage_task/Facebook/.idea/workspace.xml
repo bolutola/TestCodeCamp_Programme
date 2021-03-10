@@ -4,46 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26c70a79-307c-4fbb-b0fe-74ac2314192b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Deydam_New/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Deydam_New/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Deydam_New/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Deydam_New/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Deydam_New/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Deydam_New/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Deydam_New/Deydam_Login.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Deydam_New/allure-results/14a7775d-82a0-4f28-96cb-55a47d32f1fa-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Deydam_New/allure-results/17b547ce-c468-4fdc-aff5-e4f4a1c63cdf-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Deydam_New/allure-results/494ccc62-789e-45a5-987b-4a7c1e27094b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Deydam_New/allure-results/6cd6d5b9-0a94-47ed-924a-f3f28b3af45d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Deydam_New/allure-results/aab449f1-4332-4983-850f-38f0135aa07e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Deydam_New/allure-results/b84d60a9-004b-4f0f-a110-ea02da53090b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Deydam_New/allure-results/f17b4b90-e648-4a61-adc0-5225ae95a846-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Deydam_New/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Deydam_New/resources/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Deydam_New/src/test/java/User/UserManagementTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Deydam_New/target/test-classes/User/UserManagementTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Deydam_New/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Facebook_Login.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/0d2cde0b-1a5a-491f-86ed-bffd4f325587-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/12fbd8f9-c0c9-49e5-98e1-691e3f68f8b3-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/974cbded-57e8-4df9-a7a0-e2b936ea0aff-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a939673d-dbed-4fd0-9df3-bbf9414e80e9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c589bdb0-b23e-4013-9f88-fd381f8e0d30-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/dfda91a8-1720-4ecf-b368-c50e1adfb84e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/fb69e3c8-7249-4135-a807-0c01401a0f54-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ff16306d-3466-4860-9f79-ef8d89ffde35-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Login/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Login/LoginTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-    </list>
+    <list default="true" id="26c70a79-307c-4fbb-b0fe-74ac2314192b" name="Default Changelist" comment="Facebook Login" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,6 +83,14 @@
       <option name="presentableId" value="Default" />
       <updated>1615404781679</updated>
     </task>
+    <task id="LOCAL-00001" summary="Facebook Login">
+      <created>1615409555063</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615409555063</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,5 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Facebook Login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Facebook Login" />
   </component>
 </project>
