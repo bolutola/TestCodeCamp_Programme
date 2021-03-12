@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true" name="C:/Users/bolu.onafujabi/TestCodeCamp_Programme/submissions/SeleniumWebdriverTests/SinglePage_task/Facebook">
         <classes>
             <class name="Login.LoginTest">
-                <methods><include name="loginTest"/>
+                <methods><include name="loginTest"/><include name="logoutTest"/>
                 </methods>
             </class>
         </classes>
