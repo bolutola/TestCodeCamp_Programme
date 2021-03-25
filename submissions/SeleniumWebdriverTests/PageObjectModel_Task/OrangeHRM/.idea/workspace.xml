@@ -4,57 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc3a365b-f698-4a4e-bf07-d52ab8d23783" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/allure-results/43c91d1b-124d-4dba-8953-4d1f231e7a4c-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/allure-results/78bad8f5-3738-49ad-9cd0-b6254885d0f9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/allure-results/8954f316-be64-45f9-b72e-c044e55811db-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/allure-results/bca4c04c-b84d-4a96-b617-0a00abab8b9c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/allure-results/cf6e495b-e79d-4b33-8348-2806971b7475-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/allure-results/ddfbb61d-ab10-4378-91ae-029943947e26-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/allure-results/e380f368-ca1d-4cfe-b1fb-53cdde28a716-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/allure-results/e62c58b8-0670-4c2e-a97b-fce9380f3d94-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/allure-results/ffab09bd-c2d3-4bd2-af67-7916fdd94d58-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/resources/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/src/main/java/pageObjects/DashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/src/main/java/pageObjects/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/src/test/java/login/LoginTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/src/test/java/setup/SetupTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/target/classes/pageObjects/DashboardPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/target/classes/pageObjects/LoginPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/target/test-classes/login/LoginTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/target/test-classes/setup/SetupTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrangeHRM_POM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/OrangeHRM_POM.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/43c91d1b-124d-4dba-8953-4d1f231e7a4c-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/78bad8f5-3738-49ad-9cd0-b6254885d0f9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/8954f316-be64-45f9-b72e-c044e55811db-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/bca4c04c-b84d-4a96-b617-0a00abab8b9c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/cf6e495b-e79d-4b33-8348-2806971b7475-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/ddfbb61d-ab10-4378-91ae-029943947e26-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e380f368-ca1d-4cfe-b1fb-53cdde28a716-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e62c58b8-0670-4c2e-a97b-fce9380f3d94-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/ffab09bd-c2d3-4bd2-af67-7916fdd94d58-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/DashboardPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/login/LoginTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/setup/SetupTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/DashboardPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/login/LoginTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/setup/SetupTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModel_Task/OrangeHRM/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SinglePage_task/Facebook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SinglePage_task/Facebook/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cc3a365b-f698-4a4e-bf07-d52ab8d23783" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
   <component name="ProjectId" id="1psWNmzUS6paD2BdTjLNQNSil5T" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">

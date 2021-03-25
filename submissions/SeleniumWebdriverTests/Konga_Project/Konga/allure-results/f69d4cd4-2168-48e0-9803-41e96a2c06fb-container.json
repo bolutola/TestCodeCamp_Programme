@@ -1,0 +1,1 @@
+{"uuid":"f69d4cd4-2168-48e0-9803-41e96a2c06fb","name":"Konga_Task","children":["b248240c-920e-435e-850f-5b1f8f6821ca"],"befores":[],"afters":[{"name":"quitBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1616664750237,"stop":1616664753832}],"links":[],"start":1616664735931,"stop":1616664753833}

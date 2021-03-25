@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/bolu.onafujabi/TestCodeCamp_Programme/submissions/SeleniumWebdriverTests/PageObjectModel_Task/OrangeHRM"><classes><class name="login.LoginTests"><methods><include name="testLogin"/><include name="testLogout"/></methods></class></classes></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/bolu.onafujabi/TestCodeCamp_Programme/submissions/SeleniumWebdriverTests/PageObjectModel_Task/OrangeHRM">
+        <classes>
+            <class name="login.LoginTests">
+                <methods>
+                    <include name="testLogin"/>
+                    <include name="testLogout"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
