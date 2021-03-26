@@ -39,7 +39,9 @@ public class kongaTests {
 
         driver.findElement(By.id("password")).sendKeys("adebayo95");
 
-        driver.findElement(By.xpath("//*[@id=\"app-content-wrapper\"]/div[4]/section/section/aside/div[2]/div/form/div[3]/button"));
+        driver.findElement(By.xpath("//*[@id=\"app-content-wrapper\"]/div[4]/section/section/aside/div[2]/div/form/div[3]/button")).click();
+
+        Thread.sleep(10000);
 
         if(driver.getCurrentUrl().contains("https://www.konga.com/")){
             System.out.println("PASSED");
@@ -48,40 +50,69 @@ public class kongaTests {
         }
         //Wait and pause period
         Thread.sleep(5000);
-    }
 
 
     //Click on All categories, then computers and accessories, and then Macbooks
-    @Test
-    public void categorySelect() throws InterruptedException {
-        driver.findElement(By.linkText("All Categories")).click();
+
+        driver.findElement(By.xpath("//*[@id=\"app-content-wrapper\"]/div[3]/nav/div[3]/div/a[1]")).click();
         driver.findElement(By.xpath("//*[@id=\"app-content-wrapper\"]/div[3]/div[1]/div/div/div[1]/ul/li[1]"));
         driver.findElement(By.linkText("Macbooks")).click();
 
         //Wait and pause period
         Thread.sleep(5000);
-    }
 
     //Click item to add to cart
-    @Test
-    public void addToCart() throws InterruptedException {
-        try {
-            WebElement addToCart = driver.findElement(By.cssSelector("#mainContent > section._8d917_1ixfS > section > section > section._588b5_3MtNs > section > ul > li:nth-child(1) > div > div > div._4941f_1HCZm > form > div._2aac2_3bwnD._549f7_zvZ8u._49c0c_3Cv2D > button"));
-            addToCart.click();
-        }
-        catch (org.openqa.selenium.StaleElementReferenceException ex)
-        {
-            System.out.println("element becomes state");
-            WebElement addToCart = driver.findElement(By.cssSelector("#mainContent > section._8d917_1ixfS > section > section > section._588b5_3MtNs > section > ul > li:nth-child(1) > div > div > div._4941f_1HCZm > form > div._2aac2_3bwnD._549f7_zvZ8u._49c0c_3Cv2D > button"));
-            addToCart.click();
-        }
-        Thread.sleep(5000);
+     driver.findElement(By.xpath("//*[@id=\"mainContent\"]/section[2]/section/section/section/section/ul/li[11]/div/div/div[2]/form/div[4]/button")).click();
+            // "//*[@id=\"mainContent\"]/section[2]/section/section/section[2]/section/ul/li[7]/div/div/div[2]/form/div[4]/button")).click();
+           Thread.sleep(5000);
 
         //Click on My cart menu to view Cart Overview
-        driver.findElement(By.xpath("//*[@id=\"app-content-wrapper\"]/div[2]/nav/div[2]/div/div/a[2]"));
+        driver.findElement(By.xpath("//*[@id=\"app-content-wrapper\"]/div[2]/nav/div[2]/div/div/a[2]")).click();
+
+        //Click on Checkout
+        driver.findElement(By.xpath("//*[@id=\"app-content-wrapper\"]/div[3]/section/section/aside/div[3]/div/div[2]/button")).click();
+        Thread.sleep(5000);
+
+        //Select address
+        driver.findElement(By.linkText("Change Address")).click();
+        driver.findElement(By.name("selectDeliveryAddress")).click();
+        driver.findElement(By.linkText("Use this Address")).click();
+
+        Thread.sleep(5000);
+
+        //Click on Pay now
+        driver.findElement(By.name("selectPaymentMethod")).click();
+        Thread.sleep(5000);
+
+        //Click on continue to payment
+        driver.findElement(By.name("placeOrder")).click();
+        Thread.sleep(10000);
+
+        //Switch to iFrame element
+        driver.switchTo().frame("kpg-frame-component");
+        Thread.sleep(5000);
+
+        //Click to select card payment type
+        By.xpath("//*[@id=\"channel-template\"]/div[2]/div/div[2]/button").findElement(driver).click();
+        //driver.findElement(By.xpath("")).click();
+        Thread.sleep(5000);
+
+        //Click to input invalid card details
+        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        driver.findElement(By.id("card-number")).sendKeys("5123 4567 8900 0011");
+        driver.findElement(By.id("expiry")).sendKeys("10/23");
+        driver.findElement(By.id("cvv")).sendKeys("321");
+        driver.findElement(By.id("validateCardForm")).click();
+        Thread.sleep(5000);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+        System.out.println(driver.findElement(By.xpath("//*[@id=\"card-number_unhappy\"]")));
+
+        //Click to close checkout modal frame
+        driver.findElement(By.xpath("/html/body/section/section/section/div[2]/div[1]/aside")).click();
+        Thread.sleep(5000);
     }
 
-    //Click on CheckOut
 
 
     @AfterTest
